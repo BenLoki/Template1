@@ -199,7 +199,7 @@ def menu(exits):
         print_menu(exits)
 
         # Read player's input
-        player_choice = raw_input(str(":"))
+        player_choice = input(str(":"))
 
         # Normalise the input
         player_choice= normalise_input(player_choice)
